@@ -3,7 +3,7 @@
 - créer un programme TestNG
 - qu'est-ce que l'assertion et comment mettre l'assertion ?
 - attribut de priorité - la priorité de cette méthode de test. Les priorités les plus basses seront programmées en premier. Priorité par défaut,
-  attribution  priorité, négative valeur de priorité.
+  attribution  priorité, négative valeur de priorité
   - attribut de description - L'attribut de cette méthode.
   - que se passe-t-il lorsqu'une méthode de test échoue.
   - dependOnMethods - La liste des méthodes dont cette méthode dépend.
