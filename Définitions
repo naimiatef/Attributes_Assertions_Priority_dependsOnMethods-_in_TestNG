@@ -1,15 +1,15 @@
 Définitions:
-	- Les assertions sont nécessaires pour valider le résultat réel avec le résultat attendu.
+	- Les assertions sont nécessaires pour valider le résultat réel avec le résultat attendu: 
 
-Assert.assertEqual(String actual, String expected) : transmettez la valeur de chaîne réelle et la valeur de chaîne attendue en tant que paramètres. Valide si les valeurs réelles et attendues sont identiques ou non.
-Assert.assertEqual(String actual, String expected, String message) : similaire à la méthode précédente, lorsque l’assertion échoue, le message s’affiche avec l’exception levée.
-Assert.assertEquals(boolean actual, boolean expected) : prend deux valeurs booléennes en entrée et valide si elles sont égales ou non.
-Assert.assertTrue(condition) : cette méthode indique si la condition est vraie ou non. Si ce n’est pas le cas, l’erreur d’exception est levée.
-Assert.assertTrue(condition, message) : similaire à la méthode précédente avec un ajout de message, qui s’affiche sur la console lorsque l’assertion échoue avec l’exception.
-Assert.assertFalse(condition) : cette méthode indique si la condition est false ou non. Si ce n’est pas le cas, il génère une erreur d’exception.
-Assert.assertFalse(condition, message) : Similaire à la méthode précédente mais avec l’ajout d’une chaîne de message qui est affichée sur la console lorsque l’assertion échoue, c’est-à-dire que la condition est true*.
-public static void assertEquals(Object actual, Object expected, String message) : affirme si les deux objets passés sont égaux ou non. Si ce n’est pas le cas, le message et l’erreur d’exception s’affichent. Le paramètre message est facultatif.
-public static void assertEquals(String actual, String expected, String message) : indique si deux chaînes sont égales ou non. Si ce n’est pas le cas, le message avec l’erreur d’exception s’affiche. Le paramètre message est facultatif.
+- Assert.assertEqual(String actual, String expected) : transmettez la valeur de chaîne réelle et la valeur de chaîne attendue en tant que paramètres. Valide si les valeurs réelles et attendues sont identiques ou non.
+- Assert.assertEqual(String actual, String expected, String message) : similaire à la méthode précédente, lorsque l’assertion échoue, le message s’affiche avec l’exception levée.
+- Assert.assertEquals(boolean actual, boolean expected) : prend deux valeurs booléennes en entrée et valide si elles sont égales ou non.
+- Assert.assertTrue(condition) : cette méthode indique si la condition est vraie ou non. Si ce n’est pas le cas, l’erreur d’exception est levée.
+- Assert.assertTrue(condition, message) : similaire à la méthode précédente avec un ajout de message, qui s’affiche sur la console lorsque l’assertion échoue avec l’exception.
+- Assert.assertFalse(condition) : cette méthode indique si la condition est false ou non. Si ce n’est pas le cas, il génère une erreur d’exception.
+- Assert.assertFalse(condition, message) : Similaire à la méthode précédente mais avec l’ajout d’une chaîne de message qui est affichée sur la console lorsque l’assertion échoue, c’est-à-dire que la condition est true*.
+- public static void assertEquals(Object actual, Object expected, String message) : affirme si les deux objets passés sont égaux ou non. Si ce n’est pas le cas, le message et l’erreur d’exception s’affichent. Le paramètre message est facultatif.
+- public static void assertEquals(String actual, String expected, String message) : indique si deux chaînes sont égales ou non. Si ce n’est pas le cas, le message avec l’erreur d’exception s’affiche. Le paramètre message est facultatif.
 
 Comment implémenter la vérification dans TestNG ?
 Verify est un autre nom pour les assertions paramétrées. Les assertions logicielles peuvent être implémentées dans le code de test à l’aide de la classe SoftAssert dans TestNG. Lisez ce tutoriel pour en savoir plus.
